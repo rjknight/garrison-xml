@@ -1544,10 +1544,6 @@
     <id>INSTANCE_ID</id>
     <value>Proc0_Power</value>
     </property>
-     <property>
-        <id>IPMI_INSTANCE</id>
-        <value>1</value>
-        </property>
 </globalSetting>
 <globalSetting>
         <id>/sys-0/apss-0/Proc1_Power</id>
@@ -1559,9 +1555,71 @@
         <id>INSTANCE_ID</id>
         <value>Proc1_Power</value>
         </property>
-     <property>
-        <id>IPMI_INSTANCE</id>
-        <value>2</value>
+</globalSetting>
+<globalSetting>
+        <id>/sys-0/apss-0/PCIE_Proc0_Power</id>
+        <property>
+        <id>IPMI_SENSOR_ID</id>
+        <value>0xA6</value>
+        </property>
+        <property>
+        <id>INSTANCE_ID</id>
+        <value>PCIE_Proc0_Power</value>
+        </property>
+</globalSetting>
+<globalSetting>
+        <id>/sys-0/apss-0/PCIE_Proc1_Power</id>
+        <property>
+        <id>IPMI_SENSOR_ID</id>
+        <value>0xA7</value>
+        </property>
+        <property>
+        <id>INSTANCE_ID</id>
+        <value>PCIE_Proc1_Power</value>
+        </property>
+</globalSetting>
+<globalSetting>
+        <id>/sys-0/apss-0/Fan_Power_A</id>
+        <property>
+        <id>IPMI_SENSOR_ID</id>
+        <value>0xB0</value>
+        </property>
+        <property>
+        <id>INSTANCE_ID</id>
+        <value>Fan_Power_A</value>
+        </property>
+</globalSetting>
+<globalSetting>
+        <id>/sys-0/apss-0/Memory_Cache_Power</id>
+        <property>
+        <id>IPMI_SENSOR_ID</id>
+        <value>0xAB</value>
+        </property>
+        <property>
+        <id>INSTANCE_ID</id>
+        <value>Memory_Cache_Power</value>
+        </property>
+</globalSetting>
+<globalSetting>
+        <id>/sys-0/apss-0/12V_Sense</id>
+        <property>
+        <id>IPMI_SENSOR_ID</id>
+        <value>0xA1</value>
+        </property>
+        <property>
+        <id>INSTANCE_ID</id>
+        <value>12V_Sense</value>
+        </property>
+</globalSetting>
+<globalSetting>
+        <id>/sys-0/apss-0/GPU_Sense</id>
+        <property>
+        <id>IPMI_SENSOR_ID</id>
+        <value>0xAA</value>
+        </property>
+        <property>
+        <id>INSTANCE_ID</id>
+        <value>GPU_Sense</value>
         </property>
 </globalSetting>
 <globalSetting>
@@ -1765,7 +1823,7 @@
         </property>
     <property>
     <id>IPMI_SENSOR_ID</id>
-    <value>0x50</value>
+    <value>0x44</value>
     </property>
 </globalSetting>
 <globalSetting>
@@ -2157,6 +2215,10 @@
 </globalSetting>
 <globalSetting>
         <id>/sys-0/node-0/mesquite-0/proc_socket-1/module-1/proc/ex-9/core-0/cpucore_func_sensor</id>
+        <property>
+        <id>INSTANCE_ID</id>
+        <value>cpucore_func_sensor</value>
+        </property>
         <property>
         <id>IPMI_SENSOR_ID</id>
         <value>0x50</value>
@@ -3309,32 +3371,24 @@
 <globalSetting>
     <id>/sys-0/apss-0/Memory_Proc0_Power</id>
     <property>
-    <id>IPMI_SENSOR_ID</id>
-    <value>0xAC</value>
-    </property>
-    <property>
     <id>INSTANCE_ID</id>
     <value>Memory_Proc0_Power</value>
     </property>
-        <property>
-        <id>IPMI_INSTANCE</id>
-        <value>11</value>
-        </property>
+    <property>
+    <id>IPMI_SENSOR_ID</id>
+    <value>0xAC</value>
+    </property>
 </globalSetting>
 <globalSetting>
-        <id>/sys-0/apss-0/Memory_Proc1_Power</id>
-        <property>
-        <id>IPMI_SENSOR_ID</id>
-        <value>0xAD</value>
-        </property>
-        <property>
-        <id>INSTANCE_ID</id>
-        <value>Memory_Proc1_Power</value>
-        </property>
-        <property>
-        <id>IPMI_INSTANCE</id>
-        <value>12</value>
-        </property>
+    <id>/sys-0/apss-0/Memory_Proc1_Power</id>
+    <property>
+    <id>INSTANCE_ID</id>
+    <value>Memory_Proc1_Power</value>
+    </property>
+    <property>
+    <id>IPMI_SENSOR_ID</id>
+    <value>0xAD</value>
+    </property>
 </globalSetting>
 <globalSetting>
     <id>/sys-0/node-0/mesquite-0/birchconn-0/birch-0/membuf-0/membuf_temp_sensor</id>
@@ -12839,30 +12893,13 @@
     <position>0</position>
     <child_id>Memory_Proc0_Power</child_id>
     <child_id>Memory_Proc1_Power</child_id>
-    <child_id>Memory_Proc2_Power</child_id>
-    <child_id>Memory_Proc3_Power</child_id>
     <child_id>Proc0_Power</child_id>
     <child_id>Proc1_Power</child_id>
-    <child_id>Proc2_Power</child_id>
-    <child_id>Proc3_Power</child_id>
     <child_id>PCIE_Proc0_Power</child_id>
     <child_id>PCIE_Proc1_Power</child_id>
-    <child_id>PCIE_Proc2_Power</child_id>
-    <child_id>PCIE_Proc3_Power</child_id>
-    <child_id>IO_A_Power</child_id>
-    <child_id>IO_B_Power</child_id>
-    <child_id>IO_C_Power</child_id>
     <child_id>Fan_Power_A</child_id>
-    <child_id>Fan_Power_B</child_id>
-    <child_id>Storage_Power_A</child_id>
-    <child_id>Storage_Power_B</child_id>
-    <child_id>Total_System_Power</child_id>
     <child_id>Memory_Cache_Power</child_id>
-    <child_id>Memory_Proc0_0_Power</child_id>
-    <child_id>Memory_Proc0_1_Power</child_id>
-    <child_id>Memory_Proc0_2_Power</child_id>
     <child_id>12V_Sense</child_id>
-    <child_id>Ground_Sense</child_id>
     <child_id>GPU_Sense</child_id>
     <attribute>
         <id>CHIP_ID</id>
@@ -12905,11 +12942,11 @@
     <position>-1</position>
     <attribute>
         <id>ADC_CHANNEL_ASSIGNMENT</id>
-        <default>0</default>
+        <default>11</default>
     </attribute>
     <attribute>
         <id>ADC_CHANNEL_GAIN</id>
-        <default>34500</default>
+        <default>11595</default>
     </attribute>
     <attribute>
         <id>ADC_CHANNEL_GROUND</id>
@@ -12921,7 +12958,7 @@
     </attribute>
     <attribute>
         <id>ADC_CHANNEL_OFFSET</id>
-        <default>0</default>
+        <default>-15</default>
     </attribute>
     <attribute>
         <id>BUS_TYPE</id>
@@ -12980,11 +13017,11 @@
     <position>-1</position>
     <attribute>
         <id>ADC_CHANNEL_ASSIGNMENT</id>
-        <default></default>
+        <default>12</default>
     </attribute>
     <attribute>
         <id>ADC_CHANNEL_GAIN</id>
-        <default>34500</default>
+        <default>11595</default>
     </attribute>
     <attribute>
         <id>ADC_CHANNEL_GROUND</id>
@@ -12996,7 +13033,7 @@
     </attribute>
     <attribute>
         <id>ADC_CHANNEL_OFFSET</id>
-        <default>0</default>
+        <default>-15</default>
     </attribute>
     <attribute>
         <id>BUS_TYPE</id>
@@ -13048,156 +13085,6 @@
     </attribute>
 </targetInstance>
 <targetInstance>
-    <id>Memory_Proc2_Power</id>
-    <type>unit-apss-sensor</type>
-    <library_target>true</library_target>
-    <instance_name>Memory_Proc2_Power</instance_name>
-    <position>-1</position>
-    <attribute>
-        <id>ADC_CHANNEL_ASSIGNMENT</id>
-        <default></default>
-    </attribute>
-    <attribute>
-        <id>ADC_CHANNEL_GAIN</id>
-        <default>34500</default>
-    </attribute>
-    <attribute>
-        <id>ADC_CHANNEL_GROUND</id>
-        <default>8</default>
-    </attribute>
-    <attribute>
-        <id>ADC_CHANNEL_ID</id>
-        <default>3</default>
-    </attribute>
-    <attribute>
-        <id>ADC_CHANNEL_OFFSET</id>
-        <default>0</default>
-    </attribute>
-    <attribute>
-        <id>BUS_TYPE</id>
-        <default>NA</default>
-    </attribute>
-    <attribute>
-        <id>CHIP_UNIT</id>
-        <default>0</default>
-    </attribute>
-    <attribute>
-        <id>CLASS</id>
-        <default>UNIT</default>
-    </attribute>
-    <attribute>
-        <id>IPMI_ENTITY_ID</id>
-        <default>0xD7</default>
-    </attribute>
-    <attribute>
-        <id>IPMI_SENSOR_ID</id>
-        <default></default>
-    </attribute>
-    <attribute>
-        <id>IPMI_SENSOR_NAME_SUFFIX</id>
-        <default>Memory_Proc2_Power</default>
-    </attribute>
-    <attribute>
-        <id>IPMI_SENSOR_OFFSETS</id>
-        <default></default>
-    </attribute>
-    <attribute>
-        <id>IPMI_SENSOR_READING_TYPE</id>
-        <default>0x01</default>
-    </attribute>
-    <attribute>
-        <id>IPMI_SENSOR_TYPE</id>
-        <default>0xC2</default>
-    </attribute>
-    <attribute>
-        <id>MODEL</id>
-        <default></default>
-    </attribute>
-    <attribute>
-        <id>MRW_TYPE</id>
-        <default>APSS_SENSOR</default>
-    </attribute>
-    <attribute>
-        <id>TYPE</id>
-        <default>NA</default>
-    </attribute>
-</targetInstance>
-<targetInstance>
-    <id>Memory_Proc3_Power</id>
-    <type>unit-apss-sensor</type>
-    <library_target>true</library_target>
-    <instance_name>Memory_Proc3_Power</instance_name>
-    <position>-1</position>
-    <attribute>
-        <id>ADC_CHANNEL_ASSIGNMENT</id>
-        <default></default>
-    </attribute>
-    <attribute>
-        <id>ADC_CHANNEL_GAIN</id>
-        <default>34500</default>
-    </attribute>
-    <attribute>
-        <id>ADC_CHANNEL_GROUND</id>
-        <default>8</default>
-    </attribute>
-    <attribute>
-        <id>ADC_CHANNEL_ID</id>
-        <default>4</default>
-    </attribute>
-    <attribute>
-        <id>ADC_CHANNEL_OFFSET</id>
-        <default>0</default>
-    </attribute>
-    <attribute>
-        <id>BUS_TYPE</id>
-        <default>NA</default>
-    </attribute>
-    <attribute>
-        <id>CHIP_UNIT</id>
-        <default>0</default>
-    </attribute>
-    <attribute>
-        <id>CLASS</id>
-        <default>UNIT</default>
-    </attribute>
-    <attribute>
-        <id>IPMI_ENTITY_ID</id>
-        <default>0xD7</default>
-    </attribute>
-    <attribute>
-        <id>IPMI_SENSOR_ID</id>
-        <default></default>
-    </attribute>
-    <attribute>
-        <id>IPMI_SENSOR_NAME_SUFFIX</id>
-        <default>Memory_Proc3_Power</default>
-    </attribute>
-    <attribute>
-        <id>IPMI_SENSOR_OFFSETS</id>
-        <default></default>
-    </attribute>
-    <attribute>
-        <id>IPMI_SENSOR_READING_TYPE</id>
-        <default>0x01</default>
-    </attribute>
-    <attribute>
-        <id>IPMI_SENSOR_TYPE</id>
-        <default>0xC2</default>
-    </attribute>
-    <attribute>
-        <id>MODEL</id>
-        <default></default>
-    </attribute>
-    <attribute>
-        <id>MRW_TYPE</id>
-        <default>APSS_SENSOR</default>
-    </attribute>
-    <attribute>
-        <id>TYPE</id>
-        <default>NA</default>
-    </attribute>
-</targetInstance>
-<targetInstance>
     <id>Proc0_Power</id>
     <type>unit-apss-sensor</type>
     <library_target>true</library_target>
@@ -13209,7 +13096,7 @@
     </attribute>
     <attribute>
         <id>ADC_CHANNEL_GAIN</id>
-        <default>34500</default>
+        <default>23000</default>
     </attribute>
     <attribute>
         <id>ADC_CHANNEL_GROUND</id>
@@ -13221,7 +13108,7 @@
     </attribute>
     <attribute>
         <id>ADC_CHANNEL_OFFSET</id>
-        <default>0</default>
+        <default>-15</default>
     </attribute>
     <attribute>
         <id>BUS_TYPE</id>
@@ -13280,11 +13167,11 @@
     <position>-1</position>
     <attribute>
         <id>ADC_CHANNEL_ASSIGNMENT</id>
-        <default></default>
+        <default>2</default>
     </attribute>
     <attribute>
         <id>ADC_CHANNEL_GAIN</id>
-        <default>34500</default>
+        <default>23000</default>
     </attribute>
     <attribute>
         <id>ADC_CHANNEL_GROUND</id>
@@ -13296,7 +13183,7 @@
     </attribute>
     <attribute>
         <id>ADC_CHANNEL_OFFSET</id>
-        <default>0</default>
+        <default>-15</default>
     </attribute>
     <attribute>
         <id>BUS_TYPE</id>
@@ -13348,156 +13235,6 @@
     </attribute>
 </targetInstance>
 <targetInstance>
-    <id>Proc2_Power</id>
-    <type>unit-apss-sensor</type>
-    <library_target>true</library_target>
-    <instance_name>Proc2_Power</instance_name>
-    <position>-1</position>
-    <attribute>
-        <id>ADC_CHANNEL_ASSIGNMENT</id>
-        <default></default>
-    </attribute>
-    <attribute>
-        <id>ADC_CHANNEL_GAIN</id>
-        <default>34500</default>
-    </attribute>
-    <attribute>
-        <id>ADC_CHANNEL_GROUND</id>
-        <default>8</default>
-    </attribute>
-    <attribute>
-        <id>ADC_CHANNEL_ID</id>
-        <default>7</default>
-    </attribute>
-    <attribute>
-        <id>ADC_CHANNEL_OFFSET</id>
-        <default>0</default>
-    </attribute>
-    <attribute>
-        <id>BUS_TYPE</id>
-        <default>NA</default>
-    </attribute>
-    <attribute>
-        <id>CHIP_UNIT</id>
-        <default>0</default>
-    </attribute>
-    <attribute>
-        <id>CLASS</id>
-        <default>UNIT</default>
-    </attribute>
-    <attribute>
-        <id>IPMI_ENTITY_ID</id>
-        <default>0xD7</default>
-    </attribute>
-    <attribute>
-        <id>IPMI_SENSOR_ID</id>
-        <default></default>
-    </attribute>
-    <attribute>
-        <id>IPMI_SENSOR_NAME_SUFFIX</id>
-        <default>Proc2_Power</default>
-    </attribute>
-    <attribute>
-        <id>IPMI_SENSOR_OFFSETS</id>
-        <default></default>
-    </attribute>
-    <attribute>
-        <id>IPMI_SENSOR_READING_TYPE</id>
-        <default>0x01</default>
-    </attribute>
-    <attribute>
-        <id>IPMI_SENSOR_TYPE</id>
-        <default>0xC2</default>
-    </attribute>
-    <attribute>
-        <id>MODEL</id>
-        <default></default>
-    </attribute>
-    <attribute>
-        <id>MRW_TYPE</id>
-        <default>APSS_SENSOR</default>
-    </attribute>
-    <attribute>
-        <id>TYPE</id>
-        <default>NA</default>
-    </attribute>
-</targetInstance>
-<targetInstance>
-    <id>Proc3_Power</id>
-    <type>unit-apss-sensor</type>
-    <library_target>true</library_target>
-    <instance_name>Proc3_Power</instance_name>
-    <position>-1</position>
-    <attribute>
-        <id>ADC_CHANNEL_ASSIGNMENT</id>
-        <default></default>
-    </attribute>
-    <attribute>
-        <id>ADC_CHANNEL_GAIN</id>
-        <default>34500</default>
-    </attribute>
-    <attribute>
-        <id>ADC_CHANNEL_GROUND</id>
-        <default>8</default>
-    </attribute>
-    <attribute>
-        <id>ADC_CHANNEL_ID</id>
-        <default>8</default>
-    </attribute>
-    <attribute>
-        <id>ADC_CHANNEL_OFFSET</id>
-        <default>0</default>
-    </attribute>
-    <attribute>
-        <id>BUS_TYPE</id>
-        <default>NA</default>
-    </attribute>
-    <attribute>
-        <id>CHIP_UNIT</id>
-        <default>0</default>
-    </attribute>
-    <attribute>
-        <id>CLASS</id>
-        <default>UNIT</default>
-    </attribute>
-    <attribute>
-        <id>IPMI_ENTITY_ID</id>
-        <default>0xD7</default>
-    </attribute>
-    <attribute>
-        <id>IPMI_SENSOR_ID</id>
-        <default></default>
-    </attribute>
-    <attribute>
-        <id>IPMI_SENSOR_NAME_SUFFIX</id>
-        <default>Proc3_Power</default>
-    </attribute>
-    <attribute>
-        <id>IPMI_SENSOR_OFFSETS</id>
-        <default></default>
-    </attribute>
-    <attribute>
-        <id>IPMI_SENSOR_READING_TYPE</id>
-        <default>0x01</default>
-    </attribute>
-    <attribute>
-        <id>IPMI_SENSOR_TYPE</id>
-        <default>0xC2</default>
-    </attribute>
-    <attribute>
-        <id>MODEL</id>
-        <default></default>
-    </attribute>
-    <attribute>
-        <id>MRW_TYPE</id>
-        <default>APSS_SENSOR</default>
-    </attribute>
-    <attribute>
-        <id>TYPE</id>
-        <default>NA</default>
-    </attribute>
-</targetInstance>
-<targetInstance>
     <id>PCIE_Proc0_Power</id>
     <type>unit-apss-sensor</type>
     <library_target>true</library_target>
@@ -13505,11 +13242,11 @@
     <position>-1</position>
     <attribute>
         <id>ADC_CHANNEL_ASSIGNMENT</id>
-        <default></default>
+        <default>5</default>
     </attribute>
     <attribute>
         <id>ADC_CHANNEL_GAIN</id>
-        <default>34500</default>
+        <default>11200</default>
     </attribute>
     <attribute>
         <id>ADC_CHANNEL_GROUND</id>
@@ -13521,7 +13258,7 @@
     </attribute>
     <attribute>
         <id>ADC_CHANNEL_OFFSET</id>
-        <default>0</default>
+        <default>-15</default>
     </attribute>
     <attribute>
         <id>BUS_TYPE</id>
@@ -13580,11 +13317,11 @@
     <position>-1</position>
     <attribute>
         <id>ADC_CHANNEL_ASSIGNMENT</id>
-        <default></default>
+        <default>6</default>
     </attribute>
     <attribute>
         <id>ADC_CHANNEL_GAIN</id>
-        <default>34500</default>
+        <default>11200</default>
     </attribute>
     <attribute>
         <id>ADC_CHANNEL_GROUND</id>
@@ -13596,7 +13333,7 @@
     </attribute>
     <attribute>
         <id>ADC_CHANNEL_OFFSET</id>
-        <default>0</default>
+        <default>-15</default>
     </attribute>
     <attribute>
         <id>BUS_TYPE</id>
@@ -13648,381 +13385,6 @@
     </attribute>
 </targetInstance>
 <targetInstance>
-    <id>PCIE_Proc2_Power</id>
-    <type>unit-apss-sensor</type>
-    <library_target>true</library_target>
-    <instance_name>PCIE_Proc2_Power</instance_name>
-    <position>-1</position>
-    <attribute>
-        <id>ADC_CHANNEL_ASSIGNMENT</id>
-        <default></default>
-    </attribute>
-    <attribute>
-        <id>ADC_CHANNEL_GAIN</id>
-        <default>34500</default>
-    </attribute>
-    <attribute>
-        <id>ADC_CHANNEL_GROUND</id>
-        <default>8</default>
-    </attribute>
-    <attribute>
-        <id>ADC_CHANNEL_ID</id>
-        <default>11</default>
-    </attribute>
-    <attribute>
-        <id>ADC_CHANNEL_OFFSET</id>
-        <default>0</default>
-    </attribute>
-    <attribute>
-        <id>BUS_TYPE</id>
-        <default>NA</default>
-    </attribute>
-    <attribute>
-        <id>CHIP_UNIT</id>
-        <default>0</default>
-    </attribute>
-    <attribute>
-        <id>CLASS</id>
-        <default>UNIT</default>
-    </attribute>
-    <attribute>
-        <id>IPMI_ENTITY_ID</id>
-        <default>0xD7</default>
-    </attribute>
-    <attribute>
-        <id>IPMI_SENSOR_ID</id>
-        <default></default>
-    </attribute>
-    <attribute>
-        <id>IPMI_SENSOR_NAME_SUFFIX</id>
-        <default>PCIE_Proc2_Power</default>
-    </attribute>
-    <attribute>
-        <id>IPMI_SENSOR_OFFSETS</id>
-        <default></default>
-    </attribute>
-    <attribute>
-        <id>IPMI_SENSOR_READING_TYPE</id>
-        <default>0x01</default>
-    </attribute>
-    <attribute>
-        <id>IPMI_SENSOR_TYPE</id>
-        <default>0xC2</default>
-    </attribute>
-    <attribute>
-        <id>MODEL</id>
-        <default></default>
-    </attribute>
-    <attribute>
-        <id>MRW_TYPE</id>
-        <default>APSS_SENSOR</default>
-    </attribute>
-    <attribute>
-        <id>TYPE</id>
-        <default>NA</default>
-    </attribute>
-</targetInstance>
-<targetInstance>
-    <id>PCIE_Proc3_Power</id>
-    <type>unit-apss-sensor</type>
-    <library_target>true</library_target>
-    <instance_name>PCIE_Proc3_Power</instance_name>
-    <position>-1</position>
-    <attribute>
-        <id>ADC_CHANNEL_ASSIGNMENT</id>
-        <default></default>
-    </attribute>
-    <attribute>
-        <id>ADC_CHANNEL_GAIN</id>
-        <default>34500</default>
-    </attribute>
-    <attribute>
-        <id>ADC_CHANNEL_GROUND</id>
-        <default>8</default>
-    </attribute>
-    <attribute>
-        <id>ADC_CHANNEL_ID</id>
-        <default>12</default>
-    </attribute>
-    <attribute>
-        <id>ADC_CHANNEL_OFFSET</id>
-        <default>0</default>
-    </attribute>
-    <attribute>
-        <id>BUS_TYPE</id>
-        <default>NA</default>
-    </attribute>
-    <attribute>
-        <id>CHIP_UNIT</id>
-        <default>0</default>
-    </attribute>
-    <attribute>
-        <id>CLASS</id>
-        <default>UNIT</default>
-    </attribute>
-    <attribute>
-        <id>IPMI_ENTITY_ID</id>
-        <default>0xD7</default>
-    </attribute>
-    <attribute>
-        <id>IPMI_SENSOR_ID</id>
-        <default></default>
-    </attribute>
-    <attribute>
-        <id>IPMI_SENSOR_NAME_SUFFIX</id>
-        <default>PCIE_Proc3_Power</default>
-    </attribute>
-    <attribute>
-        <id>IPMI_SENSOR_OFFSETS</id>
-        <default></default>
-    </attribute>
-    <attribute>
-        <id>IPMI_SENSOR_READING_TYPE</id>
-        <default>0x01</default>
-    </attribute>
-    <attribute>
-        <id>IPMI_SENSOR_TYPE</id>
-        <default>0xC2</default>
-    </attribute>
-    <attribute>
-        <id>MODEL</id>
-        <default></default>
-    </attribute>
-    <attribute>
-        <id>MRW_TYPE</id>
-        <default>APSS_SENSOR</default>
-    </attribute>
-    <attribute>
-        <id>TYPE</id>
-        <default>NA</default>
-    </attribute>
-</targetInstance>
-<targetInstance>
-    <id>IO_A_Power</id>
-    <type>unit-apss-sensor</type>
-    <library_target>true</library_target>
-    <instance_name>IO_A_Power</instance_name>
-    <position>-1</position>
-    <attribute>
-        <id>ADC_CHANNEL_ASSIGNMENT</id>
-        <default></default>
-    </attribute>
-    <attribute>
-        <id>ADC_CHANNEL_GAIN</id>
-        <default>34500</default>
-    </attribute>
-    <attribute>
-        <id>ADC_CHANNEL_GROUND</id>
-        <default>8</default>
-    </attribute>
-    <attribute>
-        <id>ADC_CHANNEL_ID</id>
-        <default>13</default>
-    </attribute>
-    <attribute>
-        <id>ADC_CHANNEL_OFFSET</id>
-        <default>0</default>
-    </attribute>
-    <attribute>
-        <id>BUS_TYPE</id>
-        <default>NA</default>
-    </attribute>
-    <attribute>
-        <id>CHIP_UNIT</id>
-        <default>0</default>
-    </attribute>
-    <attribute>
-        <id>CLASS</id>
-        <default>UNIT</default>
-    </attribute>
-    <attribute>
-        <id>IPMI_ENTITY_ID</id>
-        <default>0xD7</default>
-    </attribute>
-    <attribute>
-        <id>IPMI_SENSOR_ID</id>
-        <default></default>
-    </attribute>
-    <attribute>
-        <id>IPMI_SENSOR_NAME_SUFFIX</id>
-        <default>IO_A_Power</default>
-    </attribute>
-    <attribute>
-        <id>IPMI_SENSOR_OFFSETS</id>
-        <default></default>
-    </attribute>
-    <attribute>
-        <id>IPMI_SENSOR_READING_TYPE</id>
-        <default>0x01</default>
-    </attribute>
-    <attribute>
-        <id>IPMI_SENSOR_TYPE</id>
-        <default>0xC2</default>
-    </attribute>
-    <attribute>
-        <id>MODEL</id>
-        <default></default>
-    </attribute>
-    <attribute>
-        <id>MRW_TYPE</id>
-        <default>APSS_SENSOR</default>
-    </attribute>
-    <attribute>
-        <id>TYPE</id>
-        <default>NA</default>
-    </attribute>
-</targetInstance>
-<targetInstance>
-    <id>IO_B_Power</id>
-    <type>unit-apss-sensor</type>
-    <library_target>true</library_target>
-    <instance_name>IO_B_Power</instance_name>
-    <position>-1</position>
-    <attribute>
-        <id>ADC_CHANNEL_ASSIGNMENT</id>
-        <default></default>
-    </attribute>
-    <attribute>
-        <id>ADC_CHANNEL_GAIN</id>
-        <default>34500</default>
-    </attribute>
-    <attribute>
-        <id>ADC_CHANNEL_GROUND</id>
-        <default>8</default>
-    </attribute>
-    <attribute>
-        <id>ADC_CHANNEL_ID</id>
-        <default>14</default>
-    </attribute>
-    <attribute>
-        <id>ADC_CHANNEL_OFFSET</id>
-        <default>0</default>
-    </attribute>
-    <attribute>
-        <id>BUS_TYPE</id>
-        <default>NA</default>
-    </attribute>
-    <attribute>
-        <id>CHIP_UNIT</id>
-        <default>0</default>
-    </attribute>
-    <attribute>
-        <id>CLASS</id>
-        <default>UNIT</default>
-    </attribute>
-    <attribute>
-        <id>IPMI_ENTITY_ID</id>
-        <default>0xD7</default>
-    </attribute>
-    <attribute>
-        <id>IPMI_SENSOR_ID</id>
-        <default></default>
-    </attribute>
-    <attribute>
-        <id>IPMI_SENSOR_NAME_SUFFIX</id>
-        <default>IO_B_Power</default>
-    </attribute>
-    <attribute>
-        <id>IPMI_SENSOR_OFFSETS</id>
-        <default></default>
-    </attribute>
-    <attribute>
-        <id>IPMI_SENSOR_READING_TYPE</id>
-        <default>0x01</default>
-    </attribute>
-    <attribute>
-        <id>IPMI_SENSOR_TYPE</id>
-        <default>0xC2</default>
-    </attribute>
-    <attribute>
-        <id>MODEL</id>
-        <default></default>
-    </attribute>
-    <attribute>
-        <id>MRW_TYPE</id>
-        <default>APSS_SENSOR</default>
-    </attribute>
-    <attribute>
-        <id>TYPE</id>
-        <default>NA</default>
-    </attribute>
-</targetInstance>
-<targetInstance>
-    <id>IO_C_Power</id>
-    <type>unit-apss-sensor</type>
-    <library_target>true</library_target>
-    <instance_name>IO_C_Power</instance_name>
-    <position>-1</position>
-    <attribute>
-        <id>ADC_CHANNEL_ASSIGNMENT</id>
-        <default></default>
-    </attribute>
-    <attribute>
-        <id>ADC_CHANNEL_GAIN</id>
-        <default>34500</default>
-    </attribute>
-    <attribute>
-        <id>ADC_CHANNEL_GROUND</id>
-        <default>8</default>
-    </attribute>
-    <attribute>
-        <id>ADC_CHANNEL_ID</id>
-        <default>15</default>
-    </attribute>
-    <attribute>
-        <id>ADC_CHANNEL_OFFSET</id>
-        <default>0</default>
-    </attribute>
-    <attribute>
-        <id>BUS_TYPE</id>
-        <default>NA</default>
-    </attribute>
-    <attribute>
-        <id>CHIP_UNIT</id>
-        <default>0</default>
-    </attribute>
-    <attribute>
-        <id>CLASS</id>
-        <default>UNIT</default>
-    </attribute>
-    <attribute>
-        <id>IPMI_ENTITY_ID</id>
-        <default>0xD7</default>
-    </attribute>
-    <attribute>
-        <id>IPMI_SENSOR_ID</id>
-        <default></default>
-    </attribute>
-    <attribute>
-        <id>IPMI_SENSOR_NAME_SUFFIX</id>
-        <default>IO_C_Power</default>
-    </attribute>
-    <attribute>
-        <id>IPMI_SENSOR_OFFSETS</id>
-        <default></default>
-    </attribute>
-    <attribute>
-        <id>IPMI_SENSOR_READING_TYPE</id>
-        <default>0x01</default>
-    </attribute>
-    <attribute>
-        <id>IPMI_SENSOR_TYPE</id>
-        <default>0xC2</default>
-    </attribute>
-    <attribute>
-        <id>MODEL</id>
-        <default></default>
-    </attribute>
-    <attribute>
-        <id>MRW_TYPE</id>
-        <default>APSS_SENSOR</default>
-    </attribute>
-    <attribute>
-        <id>TYPE</id>
-        <default>NA</default>
-    </attribute>
-</targetInstance>
-<targetInstance>
     <id>Fan_Power_A</id>
     <type>unit-apss-sensor</type>
     <library_target>true</library_target>
@@ -14030,11 +13392,11 @@
     <position>-1</position>
     <attribute>
         <id>ADC_CHANNEL_ASSIGNMENT</id>
-        <default></default>
+        <default>15</default>
     </attribute>
     <attribute>
         <id>ADC_CHANNEL_GAIN</id>
-        <default>34500</default>
+        <default>22700</default>
     </attribute>
     <attribute>
         <id>ADC_CHANNEL_GROUND</id>
@@ -14046,7 +13408,7 @@
     </attribute>
     <attribute>
         <id>ADC_CHANNEL_OFFSET</id>
-        <default>0</default>
+        <default>-15</default>
     </attribute>
     <attribute>
         <id>BUS_TYPE</id>
@@ -14098,306 +13460,6 @@
     </attribute>
 </targetInstance>
 <targetInstance>
-    <id>Fan_Power_B</id>
-    <type>unit-apss-sensor</type>
-    <library_target>true</library_target>
-    <instance_name>Fan_Power_B</instance_name>
-    <position>-1</position>
-    <attribute>
-        <id>ADC_CHANNEL_ASSIGNMENT</id>
-        <default></default>
-    </attribute>
-    <attribute>
-        <id>ADC_CHANNEL_GAIN</id>
-        <default>34500</default>
-    </attribute>
-    <attribute>
-        <id>ADC_CHANNEL_GROUND</id>
-        <default>8</default>
-    </attribute>
-    <attribute>
-        <id>ADC_CHANNEL_ID</id>
-        <default>17</default>
-    </attribute>
-    <attribute>
-        <id>ADC_CHANNEL_OFFSET</id>
-        <default>0</default>
-    </attribute>
-    <attribute>
-        <id>BUS_TYPE</id>
-        <default>NA</default>
-    </attribute>
-    <attribute>
-        <id>CHIP_UNIT</id>
-        <default>0</default>
-    </attribute>
-    <attribute>
-        <id>CLASS</id>
-        <default>UNIT</default>
-    </attribute>
-    <attribute>
-        <id>IPMI_ENTITY_ID</id>
-        <default>0xD7</default>
-    </attribute>
-    <attribute>
-        <id>IPMI_SENSOR_ID</id>
-        <default></default>
-    </attribute>
-    <attribute>
-        <id>IPMI_SENSOR_NAME_SUFFIX</id>
-        <default>Fan_Power_B</default>
-    </attribute>
-    <attribute>
-        <id>IPMI_SENSOR_OFFSETS</id>
-        <default></default>
-    </attribute>
-    <attribute>
-        <id>IPMI_SENSOR_READING_TYPE</id>
-        <default>0x01</default>
-    </attribute>
-    <attribute>
-        <id>IPMI_SENSOR_TYPE</id>
-        <default>0xC2</default>
-    </attribute>
-    <attribute>
-        <id>MODEL</id>
-        <default></default>
-    </attribute>
-    <attribute>
-        <id>MRW_TYPE</id>
-        <default>APSS_SENSOR</default>
-    </attribute>
-    <attribute>
-        <id>TYPE</id>
-        <default>NA</default>
-    </attribute>
-</targetInstance>
-<targetInstance>
-    <id>Storage_Power_A</id>
-    <type>unit-apss-sensor</type>
-    <library_target>true</library_target>
-    <instance_name>Storage_Power_A</instance_name>
-    <position>-1</position>
-    <attribute>
-        <id>ADC_CHANNEL_ASSIGNMENT</id>
-        <default></default>
-    </attribute>
-    <attribute>
-        <id>ADC_CHANNEL_GAIN</id>
-        <default>34500</default>
-    </attribute>
-    <attribute>
-        <id>ADC_CHANNEL_GROUND</id>
-        <default>8</default>
-    </attribute>
-    <attribute>
-        <id>ADC_CHANNEL_ID</id>
-        <default>18</default>
-    </attribute>
-    <attribute>
-        <id>ADC_CHANNEL_OFFSET</id>
-        <default>0</default>
-    </attribute>
-    <attribute>
-        <id>BUS_TYPE</id>
-        <default>NA</default>
-    </attribute>
-    <attribute>
-        <id>CHIP_UNIT</id>
-        <default>0</default>
-    </attribute>
-    <attribute>
-        <id>CLASS</id>
-        <default>UNIT</default>
-    </attribute>
-    <attribute>
-        <id>IPMI_ENTITY_ID</id>
-        <default>0xD7</default>
-    </attribute>
-    <attribute>
-        <id>IPMI_SENSOR_ID</id>
-        <default></default>
-    </attribute>
-    <attribute>
-        <id>IPMI_SENSOR_NAME_SUFFIX</id>
-        <default>Storage_Power_A</default>
-    </attribute>
-    <attribute>
-        <id>IPMI_SENSOR_OFFSETS</id>
-        <default></default>
-    </attribute>
-    <attribute>
-        <id>IPMI_SENSOR_READING_TYPE</id>
-        <default>0x01</default>
-    </attribute>
-    <attribute>
-        <id>IPMI_SENSOR_TYPE</id>
-        <default>0xC2</default>
-    </attribute>
-    <attribute>
-        <id>MODEL</id>
-        <default></default>
-    </attribute>
-    <attribute>
-        <id>MRW_TYPE</id>
-        <default>APSS_SENSOR</default>
-    </attribute>
-    <attribute>
-        <id>TYPE</id>
-        <default>NA</default>
-    </attribute>
-</targetInstance>
-<targetInstance>
-    <id>Storage_Power_B</id>
-    <type>unit-apss-sensor</type>
-    <library_target>true</library_target>
-    <instance_name>Storage_Power_B</instance_name>
-    <position>-1</position>
-    <attribute>
-        <id>ADC_CHANNEL_ASSIGNMENT</id>
-        <default></default>
-    </attribute>
-    <attribute>
-        <id>ADC_CHANNEL_GAIN</id>
-        <default>34500</default>
-    </attribute>
-    <attribute>
-        <id>ADC_CHANNEL_GROUND</id>
-        <default>8</default>
-    </attribute>
-    <attribute>
-        <id>ADC_CHANNEL_ID</id>
-        <default>19</default>
-    </attribute>
-    <attribute>
-        <id>ADC_CHANNEL_OFFSET</id>
-        <default>0</default>
-    </attribute>
-    <attribute>
-        <id>BUS_TYPE</id>
-        <default>NA</default>
-    </attribute>
-    <attribute>
-        <id>CHIP_UNIT</id>
-        <default>0</default>
-    </attribute>
-    <attribute>
-        <id>CLASS</id>
-        <default>UNIT</default>
-    </attribute>
-    <attribute>
-        <id>IPMI_ENTITY_ID</id>
-        <default>0xD7</default>
-    </attribute>
-    <attribute>
-        <id>IPMI_SENSOR_ID</id>
-        <default></default>
-    </attribute>
-    <attribute>
-        <id>IPMI_SENSOR_NAME_SUFFIX</id>
-        <default>Storage_Power_B</default>
-    </attribute>
-    <attribute>
-        <id>IPMI_SENSOR_OFFSETS</id>
-        <default></default>
-    </attribute>
-    <attribute>
-        <id>IPMI_SENSOR_READING_TYPE</id>
-        <default>0x01</default>
-    </attribute>
-    <attribute>
-        <id>IPMI_SENSOR_TYPE</id>
-        <default>0xC2</default>
-    </attribute>
-    <attribute>
-        <id>MODEL</id>
-        <default></default>
-    </attribute>
-    <attribute>
-        <id>MRW_TYPE</id>
-        <default>APSS_SENSOR</default>
-    </attribute>
-    <attribute>
-        <id>TYPE</id>
-        <default>NA</default>
-    </attribute>
-</targetInstance>
-<targetInstance>
-    <id>Total_System_Power</id>
-    <type>unit-apss-sensor</type>
-    <library_target>true</library_target>
-    <instance_name>Total_System_Power</instance_name>
-    <position>-1</position>
-    <attribute>
-        <id>ADC_CHANNEL_ASSIGNMENT</id>
-        <default></default>
-    </attribute>
-    <attribute>
-        <id>ADC_CHANNEL_GAIN</id>
-        <default>34500</default>
-    </attribute>
-    <attribute>
-        <id>ADC_CHANNEL_GROUND</id>
-        <default>8</default>
-    </attribute>
-    <attribute>
-        <id>ADC_CHANNEL_ID</id>
-        <default>22</default>
-    </attribute>
-    <attribute>
-        <id>ADC_CHANNEL_OFFSET</id>
-        <default>0</default>
-    </attribute>
-    <attribute>
-        <id>BUS_TYPE</id>
-        <default>NA</default>
-    </attribute>
-    <attribute>
-        <id>CHIP_UNIT</id>
-        <default>0</default>
-    </attribute>
-    <attribute>
-        <id>CLASS</id>
-        <default>UNIT</default>
-    </attribute>
-    <attribute>
-        <id>IPMI_ENTITY_ID</id>
-        <default>0xD7</default>
-    </attribute>
-    <attribute>
-        <id>IPMI_SENSOR_ID</id>
-        <default></default>
-    </attribute>
-    <attribute>
-        <id>IPMI_SENSOR_NAME_SUFFIX</id>
-        <default>Total_System_Power</default>
-    </attribute>
-    <attribute>
-        <id>IPMI_SENSOR_OFFSETS</id>
-        <default></default>
-    </attribute>
-    <attribute>
-        <id>IPMI_SENSOR_READING_TYPE</id>
-        <default>0x01</default>
-    </attribute>
-    <attribute>
-        <id>IPMI_SENSOR_TYPE</id>
-        <default>0xC2</default>
-    </attribute>
-    <attribute>
-        <id>MODEL</id>
-        <default></default>
-    </attribute>
-    <attribute>
-        <id>MRW_TYPE</id>
-        <default>APSS_SENSOR</default>
-    </attribute>
-    <attribute>
-        <id>TYPE</id>
-        <default>NA</default>
-    </attribute>
-</targetInstance>
-<targetInstance>
     <id>Memory_Cache_Power</id>
     <type>unit-apss-sensor</type>
     <library_target>true</library_target>
@@ -14405,11 +13467,11 @@
     <position>-1</position>
     <attribute>
         <id>ADC_CHANNEL_ASSIGNMENT</id>
-        <default></default>
+        <default>10</default>
     </attribute>
     <attribute>
         <id>ADC_CHANNEL_GAIN</id>
-        <default>34500</default>
+        <default>25100</default>
     </attribute>
     <attribute>
         <id>ADC_CHANNEL_GROUND</id>
@@ -14421,7 +13483,7 @@
     </attribute>
     <attribute>
         <id>ADC_CHANNEL_OFFSET</id>
-        <default>0</default>
+        <default>-15</default>
     </attribute>
     <attribute>
         <id>BUS_TYPE</id>
@@ -14473,231 +13535,6 @@
     </attribute>
 </targetInstance>
 <targetInstance>
-    <id>Memory_Proc0_0_Power</id>
-    <type>unit-apss-sensor</type>
-    <library_target>true</library_target>
-    <instance_name>Memory_Proc0_0_Power</instance_name>
-    <position>-1</position>
-    <attribute>
-        <id>ADC_CHANNEL_ASSIGNMENT</id>
-        <default></default>
-    </attribute>
-    <attribute>
-        <id>ADC_CHANNEL_GAIN</id>
-        <default>34500</default>
-    </attribute>
-    <attribute>
-        <id>ADC_CHANNEL_GROUND</id>
-        <default>8</default>
-    </attribute>
-    <attribute>
-        <id>ADC_CHANNEL_ID</id>
-        <default>25</default>
-    </attribute>
-    <attribute>
-        <id>ADC_CHANNEL_OFFSET</id>
-        <default>0</default>
-    </attribute>
-    <attribute>
-        <id>BUS_TYPE</id>
-        <default>NA</default>
-    </attribute>
-    <attribute>
-        <id>CHIP_UNIT</id>
-        <default>0</default>
-    </attribute>
-    <attribute>
-        <id>CLASS</id>
-        <default>UNIT</default>
-    </attribute>
-    <attribute>
-        <id>IPMI_ENTITY_ID</id>
-        <default>0xD7</default>
-    </attribute>
-    <attribute>
-        <id>IPMI_SENSOR_ID</id>
-        <default></default>
-    </attribute>
-    <attribute>
-        <id>IPMI_SENSOR_NAME_SUFFIX</id>
-        <default>Memory_Proc0_0_Power</default>
-    </attribute>
-    <attribute>
-        <id>IPMI_SENSOR_OFFSETS</id>
-        <default></default>
-    </attribute>
-    <attribute>
-        <id>IPMI_SENSOR_READING_TYPE</id>
-        <default>0x01</default>
-    </attribute>
-    <attribute>
-        <id>IPMI_SENSOR_TYPE</id>
-        <default>0xC2</default>
-    </attribute>
-    <attribute>
-        <id>MODEL</id>
-        <default></default>
-    </attribute>
-    <attribute>
-        <id>MRW_TYPE</id>
-        <default>APSS_SENSOR</default>
-    </attribute>
-    <attribute>
-        <id>TYPE</id>
-        <default>NA</default>
-    </attribute>
-</targetInstance>
-<targetInstance>
-    <id>Memory_Proc0_1_Power</id>
-    <type>unit-apss-sensor</type>
-    <library_target>true</library_target>
-    <instance_name>Memory_Proc0_1_Power</instance_name>
-    <position>-1</position>
-    <attribute>
-        <id>ADC_CHANNEL_ASSIGNMENT</id>
-        <default></default>
-    </attribute>
-    <attribute>
-        <id>ADC_CHANNEL_GAIN</id>
-        <default>34500</default>
-    </attribute>
-    <attribute>
-        <id>ADC_CHANNEL_GROUND</id>
-        <default>8</default>
-    </attribute>
-    <attribute>
-        <id>ADC_CHANNEL_ID</id>
-        <default>26</default>
-    </attribute>
-    <attribute>
-        <id>ADC_CHANNEL_OFFSET</id>
-        <default>0</default>
-    </attribute>
-    <attribute>
-        <id>BUS_TYPE</id>
-        <default>NA</default>
-    </attribute>
-    <attribute>
-        <id>CHIP_UNIT</id>
-        <default>0</default>
-    </attribute>
-    <attribute>
-        <id>CLASS</id>
-        <default>UNIT</default>
-    </attribute>
-    <attribute>
-        <id>IPMI_ENTITY_ID</id>
-        <default>0xD7</default>
-    </attribute>
-    <attribute>
-        <id>IPMI_SENSOR_ID</id>
-        <default></default>
-    </attribute>
-    <attribute>
-        <id>IPMI_SENSOR_NAME_SUFFIX</id>
-        <default>Memory_Proc0_1_Power</default>
-    </attribute>
-    <attribute>
-        <id>IPMI_SENSOR_OFFSETS</id>
-        <default></default>
-    </attribute>
-    <attribute>
-        <id>IPMI_SENSOR_READING_TYPE</id>
-        <default>0x01</default>
-    </attribute>
-    <attribute>
-        <id>IPMI_SENSOR_TYPE</id>
-        <default>0xC2</default>
-    </attribute>
-    <attribute>
-        <id>MODEL</id>
-        <default></default>
-    </attribute>
-    <attribute>
-        <id>MRW_TYPE</id>
-        <default>APSS_SENSOR</default>
-    </attribute>
-    <attribute>
-        <id>TYPE</id>
-        <default>NA</default>
-    </attribute>
-</targetInstance>
-<targetInstance>
-    <id>Memory_Proc0_2_Power</id>
-    <type>unit-apss-sensor</type>
-    <library_target>true</library_target>
-    <instance_name>Memory_Proc0_2_Power</instance_name>
-    <position>-1</position>
-    <attribute>
-        <id>ADC_CHANNEL_ASSIGNMENT</id>
-        <default></default>
-    </attribute>
-    <attribute>
-        <id>ADC_CHANNEL_GAIN</id>
-        <default>34500</default>
-    </attribute>
-    <attribute>
-        <id>ADC_CHANNEL_GROUND</id>
-        <default>8</default>
-    </attribute>
-    <attribute>
-        <id>ADC_CHANNEL_ID</id>
-        <default>27</default>
-    </attribute>
-    <attribute>
-        <id>ADC_CHANNEL_OFFSET</id>
-        <default>0</default>
-    </attribute>
-    <attribute>
-        <id>BUS_TYPE</id>
-        <default>NA</default>
-    </attribute>
-    <attribute>
-        <id>CHIP_UNIT</id>
-        <default>0</default>
-    </attribute>
-    <attribute>
-        <id>CLASS</id>
-        <default>UNIT</default>
-    </attribute>
-    <attribute>
-        <id>IPMI_ENTITY_ID</id>
-        <default>0xD7</default>
-    </attribute>
-    <attribute>
-        <id>IPMI_SENSOR_ID</id>
-        <default></default>
-    </attribute>
-    <attribute>
-        <id>IPMI_SENSOR_NAME_SUFFIX</id>
-        <default>Memory_Proc0_2_Power</default>
-    </attribute>
-    <attribute>
-        <id>IPMI_SENSOR_OFFSETS</id>
-        <default></default>
-    </attribute>
-    <attribute>
-        <id>IPMI_SENSOR_READING_TYPE</id>
-        <default>0x01</default>
-    </attribute>
-    <attribute>
-        <id>IPMI_SENSOR_TYPE</id>
-        <default>0xC2</default>
-    </attribute>
-    <attribute>
-        <id>MODEL</id>
-        <default></default>
-    </attribute>
-    <attribute>
-        <id>MRW_TYPE</id>
-        <default>APSS_SENSOR</default>
-    </attribute>
-    <attribute>
-        <id>TYPE</id>
-        <default>NA</default>
-    </attribute>
-</targetInstance>
-<targetInstance>
     <id>12V_Sense</id>
     <type>unit-apss-sensor</type>
     <library_target>true</library_target>
@@ -14705,11 +13542,11 @@
     <position>-1</position>
     <attribute>
         <id>ADC_CHANNEL_ASSIGNMENT</id>
-        <default></default>
+        <default>0</default>
     </attribute>
     <attribute>
         <id>ADC_CHANNEL_GAIN</id>
-        <default>34500</default>
+        <default>6500</default>
     </attribute>
     <attribute>
         <id>ADC_CHANNEL_GROUND</id>
@@ -14721,7 +13558,7 @@
     </attribute>
     <attribute>
         <id>ADC_CHANNEL_OFFSET</id>
-        <default>0</default>
+        <default>-15</default>
     </attribute>
     <attribute>
         <id>BUS_TYPE</id>
@@ -14773,81 +13610,6 @@
     </attribute>
 </targetInstance>
 <targetInstance>
-    <id>Ground_Sense</id>
-    <type>unit-apss-sensor</type>
-    <library_target>true</library_target>
-    <instance_name>Ground_Sense</instance_name>
-    <position>-1</position>
-    <attribute>
-        <id>ADC_CHANNEL_ASSIGNMENT</id>
-        <default></default>
-    </attribute>
-    <attribute>
-        <id>ADC_CHANNEL_GAIN</id>
-        <default>34500</default>
-    </attribute>
-    <attribute>
-        <id>ADC_CHANNEL_GROUND</id>
-        <default>8</default>
-    </attribute>
-    <attribute>
-        <id>ADC_CHANNEL_ID</id>
-        <default>21</default>
-    </attribute>
-    <attribute>
-        <id>ADC_CHANNEL_OFFSET</id>
-        <default>0</default>
-    </attribute>
-    <attribute>
-        <id>BUS_TYPE</id>
-        <default>NA</default>
-    </attribute>
-    <attribute>
-        <id>CHIP_UNIT</id>
-        <default>0</default>
-    </attribute>
-    <attribute>
-        <id>CLASS</id>
-        <default>UNIT</default>
-    </attribute>
-    <attribute>
-        <id>IPMI_ENTITY_ID</id>
-        <default>0xD7</default>
-    </attribute>
-    <attribute>
-        <id>IPMI_SENSOR_ID</id>
-        <default></default>
-    </attribute>
-    <attribute>
-        <id>IPMI_SENSOR_NAME_SUFFIX</id>
-        <default>Ground Sense</default>
-    </attribute>
-    <attribute>
-        <id>IPMI_SENSOR_OFFSETS</id>
-        <default></default>
-    </attribute>
-    <attribute>
-        <id>IPMI_SENSOR_READING_TYPE</id>
-        <default>0x01</default>
-    </attribute>
-    <attribute>
-        <id>IPMI_SENSOR_TYPE</id>
-        <default>0xC2</default>
-    </attribute>
-    <attribute>
-        <id>MODEL</id>
-        <default></default>
-    </attribute>
-    <attribute>
-        <id>MRW_TYPE</id>
-        <default>APSS_SENSOR</default>
-    </attribute>
-    <attribute>
-        <id>TYPE</id>
-        <default>NA</default>
-    </attribute>
-</targetInstance>
-<targetInstance>
     <id>GPU_Sense</id>
     <type>unit-apss-sensor</type>
     <library_target>true</library_target>
@@ -14855,11 +13617,11 @@
     <position>-1</position>
     <attribute>
         <id>ADC_CHANNEL_ASSIGNMENT</id>
-        <default></default>
+        <default>9</default>
     </attribute>
     <attribute>
         <id>ADC_CHANNEL_GAIN</id>
-        <default>34500</default>
+        <default>22000</default>
     </attribute>
     <attribute>
         <id>ADC_CHANNEL_GROUND</id>
@@ -14871,7 +13633,7 @@
     </attribute>
     <attribute>
         <id>ADC_CHANNEL_OFFSET</id>
-        <default>0</default>
+        <default>-15</default>
     </attribute>
     <attribute>
         <id>BUS_TYPE</id>
