@@ -2536,6 +2536,48 @@
     </property>
 </globalSetting>
 <globalSetting>
+    <id>/sys-0/node-0/mesquite-0/psuconn-0</id>
+    <property>
+    <id>IO_CONFIG_SELECT</id>
+    <value></value>
+    </property>
+</globalSetting>
+<globalSetting>
+    <id>/sys-0/node-0/mesquite-0/psuconn-1</id>
+    <property>
+    <id>IO_CONFIG_SELECT</id>
+    <value></value>
+    </property>
+</globalSetting>
+<globalSetting>
+    <id>/sys-0/node-0/mesquite-0/fanconn-0</id>
+    <property>
+    <id>IO_CONFIG_SELECT</id>
+    <value></value>
+    </property>
+</globalSetting>
+<globalSetting>
+    <id>/sys-0/node-0/mesquite-0/fanconn-1</id>
+    <property>
+    <id>IO_CONFIG_SELECT</id>
+    <value></value>
+    </property>
+</globalSetting>
+<globalSetting>
+    <id>/sys-0/node-0/mesquite-0/fanconn-2</id>
+    <property>
+    <id>IO_CONFIG_SELECT</id>
+    <value></value>
+    </property>
+</globalSetting>
+<globalSetting>
+    <id>/sys-0/node-0/mesquite-0/fanconn-3</id>
+    <property>
+    <id>IO_CONFIG_SELECT</id>
+    <value></value>
+    </property>
+</globalSetting>
+<globalSetting>
     <id>/sys-0/node-0/mesquite-0/birchconn-2/birch-0/dimmconn-3/dimm-0</id>
     <property>
     <id>IO_CONFIG_SELECT</id>
@@ -3238,6 +3280,144 @@
     <property>
     <id>FRU_ID</id>
     <value></value>
+    </property>
+</globalSetting>
+<globalSetting>
+    <id>/sys-0/node-0/mesquite-0/psuconn-0/psu-0</id>
+    <property>
+    <id>IO_CONFIG_SELECT</id>
+    <value></value>
+    </property>
+    <property>
+    <id>INSTANCE_ID</id>
+    <value>psu-0</value>
+    </property>
+    <property>
+    <id>IPMI_INSTANCE</id>
+    <value>0</value>
+    </property>
+    <property>
+    <id>FRU_NAME</id>
+    <value>PSU1</value>
+    </property>
+    <property>
+    <id>FRU_ID</id>
+    <value>1</value>
+    </property>
+</globalSetting>
+<globalSetting>
+    <id>/sys-0/node-0/mesquite-0/psuconn-1/psu-0</id>
+    <property>
+    <id>IO_CONFIG_SELECT</id>
+    <value></value>
+    </property>
+    <property>
+    <id>INSTANCE_ID</id>
+    <value>psu-0</value>
+    </property>
+    <property>
+    <id>IPMI_INSTANCE</id>
+    <value>0</value>
+    </property>
+    <property>
+    <id>FRU_NAME</id>
+    <value>PSU2</value>
+    </property>
+    <property>
+    <id>FRU_ID</id>
+    <value>2</value>
+    </property>
+</globalSetting>
+<globalSetting>
+    <id>/sys-0/node-0/mesquite-0/fanconn-0/fan-0</id>
+    <property>
+    <id>IO_CONFIG_SELECT</id>
+    <value></value>
+    </property>
+    <property>
+    <id>INSTANCE_ID</id>
+    <value>fan-0</value>
+    </property>
+    <property>
+    <id>IPMI_INSTANCE</id>
+    <value>0</value>
+    </property>
+    <property>
+    <id>FRU_NAME</id>
+    <value>FAN1</value>
+    </property>
+    <property>
+    <id>FRU_ID</id>
+    <value>1</value>
+    </property>
+</globalSetting>
+<globalSetting>
+    <id>/sys-0/node-0/mesquite-0/fanconn-1/fan-0</id>
+    <property>
+    <id>IO_CONFIG_SELECT</id>
+    <value></value>
+    </property>
+    <property>
+    <id>INSTANCE_ID</id>
+    <value>fan-0</value>
+    </property>
+    <property>
+    <id>IPMI_INSTANCE</id>
+    <value>0</value>
+    </property>
+    <property>
+    <id>FRU_NAME</id>
+    <value>FAN2</value>
+    </property>
+    <property>
+    <id>FRU_ID</id>
+    <value>2</value>
+    </property>
+</globalSetting>
+<globalSetting>
+    <id>/sys-0/node-0/mesquite-0/fanconn-2/fan-0</id>
+    <property>
+    <id>IO_CONFIG_SELECT</id>
+    <value></value>
+    </property>
+    <property>
+    <id>INSTANCE_ID</id>
+    <value>fan-0</value>
+    </property>
+    <property>
+    <id>IPMI_INSTANCE</id>
+    <value>0</value>
+    </property>
+    <property>
+    <id>FRU_NAME</id>
+    <value>FAN3</value>
+    </property>
+    <property>
+    <id>FRU_ID</id>
+    <value>3</value>
+    </property>
+</globalSetting>
+<globalSetting>
+    <id>/sys-0/node-0/mesquite-0/fanconn-3/fan-0</id>
+    <property>
+    <id>IO_CONFIG_SELECT</id>
+    <value></value>
+    </property>
+    <property>
+    <id>INSTANCE_ID</id>
+    <value>fan-0</value>
+    </property>
+    <property>
+    <id>IPMI_INSTANCE</id>
+    <value>0</value>
+    </property>
+    <property>
+    <id>FRU_NAME</id>
+    <value>FAN4</value>
+    </property>
+    <property>
+    <id>FRU_ID</id>
+    <value>4</value>
     </property>
 </globalSetting>
 <globalSetting>
@@ -4158,6 +4338,48 @@
     <property>
     <id>IPMI_SENSOR_ID</id>
     <value>0x5E</value>
+    </property>
+</globalSetting>
+<globalSetting>
+    <id>/sys-0/node-0/mesquite-0/psuconn-0/psu-0/psu_fault_sensor</id>
+    <property>
+    <id>IPMI_SENSOR_ID</id>
+    <value>0xC0</value>
+    </property>
+</globalSetting>
+<globalSetting>
+    <id>/sys-0/node-0/mesquite-0/psuconn-1/psu-0/psu_fault_sensor</id>
+    <property>
+    <id>IPMI_SENSOR_ID</id>
+    <value>0xC1</value>
+    </property>
+</globalSetting>
+<globalSetting>
+    <id>/sys-0/node-0/mesquite-0/fanconn-0/fan-0/fan_rpm_sensor</id>
+    <property>
+    <id>IPMI_SENSOR_ID</id>
+    <value>0xC2</value>
+    </property>
+</globalSetting>
+<globalSetting>
+    <id>/sys-0/node-0/mesquite-0/fanconn-1/fan-0/fan_rpm_sensor</id>
+    <property>
+    <id>IPMI_SENSOR_ID</id>
+    <value>0xC3</value>
+    </property>
+</globalSetting>
+<globalSetting>
+    <id>/sys-0/node-0/mesquite-0/fanconn-2/fan-0/fan_rpm_sensor</id>
+    <property>
+    <id>IPMI_SENSOR_ID</id>
+    <value>0xC4</value>
+    </property>
+</globalSetting>
+<globalSetting>
+    <id>/sys-0/node-0/mesquite-0/fanconn-3/fan-0/fan_rpm_sensor</id>
+    <property>
+    <id>IPMI_SENSOR_ID</id>
+    <value>0xC5</value>
     </property>
 </globalSetting>
 <globalSetting>
@@ -5463,6 +5685,12 @@
     <child_id>birchconn-5</child_id>
     <child_id>birchconn-6</child_id>
     <child_id>birchconn-7</child_id>
+    <child_id>psuconn-0</child_id>
+    <child_id>psuconn-1</child_id>
+    <child_id>fanconn-0</child_id>
+    <child_id>fanconn-1</child_id>
+    <child_id>fanconn-2</child_id>
+    <child_id>fanconn-3</child_id>
     <child_id>x16slot-3</child_id>
     <child_id>x8slot-2</child_id>
     <child_id>PEX8718-0</child_id>
@@ -9486,6 +9714,270 @@
     </attribute>
 </targetInstance>
 <targetInstance>
+    <id>psuconn-0</id>
+    <type>connector-card-generic</type>
+    <library_target>false</library_target>
+    <instance_name>psuconn</instance_name>
+    <position>0</position>
+    <child_id>psu-0</child_id>
+    <attribute>
+        <id>CLASS</id>
+        <default>CONNECTOR</default>
+    </attribute>
+    <attribute>
+        <id>LOCATION_CODE</id>
+        <default></default>
+    </attribute>
+    <attribute>
+        <id>MODEL</id>
+        <default></default>
+    </attribute>
+    <attribute>
+        <id>MRW_TYPE</id>
+        <default>NA</default>
+    </attribute>
+    <attribute>
+        <id>POSITION</id>
+        <default>0</default>
+    </attribute>
+    <attribute>
+        <id>TYPE</id>
+        <default>NA</default>
+    </attribute>
+</targetInstance>
+<targetInstance>
+    <id>psuconn-1</id>
+    <type>connector-card-generic</type>
+    <library_target>false</library_target>
+    <instance_name>psuconn</instance_name>
+    <position>0</position>
+    <child_id>psu-0</child_id>
+    <attribute>
+        <id>CLASS</id>
+        <default>CONNECTOR</default>
+    </attribute>
+    <attribute>
+        <id>LOCATION_CODE</id>
+        <default></default>
+    </attribute>
+    <attribute>
+        <id>MODEL</id>
+        <default></default>
+    </attribute>
+    <attribute>
+        <id>MRW_TYPE</id>
+        <default>NA</default>
+    </attribute>
+    <attribute>
+        <id>POSITION</id>
+        <default>1</default>
+    </attribute>
+    <attribute>
+        <id>TYPE</id>
+        <default>NA</default>
+    </attribute>
+</targetInstance>
+<targetInstance>
+    <id>psu-0</id>
+    <type>card-daughtercard</type>
+    <library_target>false</library_target>
+    <instance_name>psu</instance_name>
+    <position>0</position>
+    <hidden_child_id>psu_fault_sensor</hidden_child_id>
+    <attribute>
+        <id>CLASS</id>
+        <default>CARD</default>
+    </attribute>
+    <attribute>
+        <id>FRU_ID</id>
+        <default></default>
+    </attribute>
+    <attribute>
+        <id>LOCATION_CODE</id>
+        <default></default>
+    </attribute>
+    <attribute>
+        <id>MODEL</id>
+        <default></default>
+    </attribute>
+    <attribute>
+        <id>MRW_TYPE</id>
+        <default>NA</default>
+    </attribute>
+    <attribute>
+        <id>POSITION</id>
+        <default>0</default>
+    </attribute>
+    <attribute>
+        <id>TYPE</id>
+        <default>NA</default>
+    </attribute>
+</targetInstance>
+<targetInstance>
+    <id>fanconn-0</id>
+    <type>connector-card-generic</type>
+    <library_target>false</library_target>
+    <instance_name>fanconn</instance_name>
+    <position>0</position>
+    <child_id>fan-0</child_id>
+    <attribute>
+        <id>CLASS</id>
+        <default>CONNECTOR</default>
+    </attribute>
+    <attribute>
+        <id>LOCATION_CODE</id>
+        <default></default>
+    </attribute>
+    <attribute>
+        <id>MODEL</id>
+        <default></default>
+    </attribute>
+    <attribute>
+        <id>MRW_TYPE</id>
+        <default>NA</default>
+    </attribute>
+    <attribute>
+        <id>POSITION</id>
+        <default>0</default>
+    </attribute>
+    <attribute>
+        <id>TYPE</id>
+        <default>NA</default>
+    </attribute>
+</targetInstance>
+<targetInstance>
+    <id>fanconn-1</id>
+    <type>connector-card-generic</type>
+    <library_target>false</library_target>
+    <instance_name>fanconn</instance_name>
+    <position>1</position>
+    <child_id>fan-0</child_id>
+    <attribute>
+        <id>CLASS</id>
+        <default>CONNECTOR</default>
+    </attribute>
+    <attribute>
+        <id>LOCATION_CODE</id>
+        <default></default>
+    </attribute>
+    <attribute>
+        <id>MODEL</id>
+        <default></default>
+    </attribute>
+    <attribute>
+        <id>MRW_TYPE</id>
+        <default>NA</default>
+    </attribute>
+    <attribute>
+        <id>POSITION</id>
+        <default>1</default>
+    </attribute>
+    <attribute>
+        <id>TYPE</id>
+        <default>NA</default>
+    </attribute>
+</targetInstance>
+<targetInstance>
+    <id>fanconn-2</id>
+    <type>connector-card-generic</type>
+    <library_target>false</library_target>
+    <instance_name>fanconn</instance_name>
+    <position>2</position>
+    <child_id>fan-0</child_id>
+    <attribute>
+        <id>CLASS</id>
+        <default>CONNECTOR</default>
+    </attribute>
+    <attribute>
+        <id>LOCATION_CODE</id>
+        <default></default>
+    </attribute>
+    <attribute>
+        <id>MODEL</id>
+        <default></default>
+    </attribute>
+    <attribute>
+        <id>MRW_TYPE</id>
+        <default>NA</default>
+    </attribute>
+    <attribute>
+        <id>POSITION</id>
+        <default>2</default>
+    </attribute>
+    <attribute>
+        <id>TYPE</id>
+        <default>NA</default>
+    </attribute>
+</targetInstance>
+<targetInstance>
+    <id>fanconn-3</id>
+    <type>connector-card-generic</type>
+    <library_target>false</library_target>
+    <instance_name>fanconn</instance_name>
+    <position>3</position>
+    <child_id>fan-0</child_id>
+    <attribute>
+        <id>CLASS</id>
+        <default>CONNECTOR</default>
+    </attribute>
+    <attribute>
+        <id>LOCATION_CODE</id>
+        <default></default>
+    </attribute>
+    <attribute>
+        <id>MODEL</id>
+        <default></default>
+    </attribute>
+    <attribute>
+        <id>MRW_TYPE</id>
+        <default>NA</default>
+    </attribute>
+    <attribute>
+        <id>POSITION</id>
+        <default>3</default>
+    </attribute>
+    <attribute>
+        <id>TYPE</id>
+        <default>NA</default>
+    </attribute>
+</targetInstance>
+<targetInstance>
+    <id>fan-0</id>
+    <type>card-daughtercard</type>
+    <library_target>false</library_target>
+    <instance_name>fan</instance_name>
+    <position>0</position>
+    <hidden_child_id>fan_rpm_sensor</hidden_child_id>
+    <attribute>
+        <id>CLASS</id>
+        <default>CARD</default>
+    </attribute>
+    <attribute>
+        <id>FRU_ID</id>
+        <default></default>
+    </attribute>
+    <attribute>
+        <id>LOCATION_CODE</id>
+        <default></default>
+    </attribute>
+    <attribute>
+        <id>MODEL</id>
+        <default></default>
+    </attribute>
+    <attribute>
+        <id>MRW_TYPE</id>
+        <default>NA</default>
+    </attribute>
+    <attribute>
+        <id>POSITION</id>
+        <default>0</default>
+    </attribute>
+    <attribute>
+        <id>TYPE</id>
+        <default>NA</default>
+    </attribute>
+</targetInstance>
+<targetInstance>
     <id>birchconn-0</id>
     <type>connector-card-generic</type>
     <library_target>false</library_target>
@@ -10855,6 +11347,116 @@
     <attribute>
         <id>WRITE_PAGE_SIZE</id>
         <default>0x50</default>
+    </attribute>
+</targetInstance>
+<targetInstance>
+    <id>psu_fault_sensor</id>
+    <type>unit-ipmi-sensor</type>
+    <library_target>true</library_target>
+    <instance_name>psu_fault_sensor</instance_name>
+    <position>-1</position>
+    <attribute>
+        <id>BUS_TYPE</id>
+        <default>NA</default>
+    </attribute>
+    <attribute>
+        <id>CHIP_UNIT</id>
+        <default>0</default>
+    </attribute>
+    <attribute>
+        <id>CLASS</id>
+        <default>UNIT</default>
+    </attribute>
+    <attribute>
+        <id>IPMI_ENTITY_ID</id>
+        <default>0x03</default>
+    </attribute>
+    <attribute>
+        <id>IPMI_SENSOR_ID</id>
+        <default></default>
+    </attribute>
+    <attribute>
+        <id>IPMI_SENSOR_NAME_SUFFIX</id>
+        <default>Fault</default>
+    </attribute>
+    <attribute>
+        <id>IPMI_SENSOR_OFFSETS</id>
+        <default>0x07</default>
+    </attribute>
+    <attribute>
+        <id>IPMI_SENSOR_READING_TYPE</id>
+        <default>0x6F</default>
+    </attribute>
+    <attribute>
+        <id>IPMI_SENSOR_TYPE</id>
+        <default>0x07</default>
+    </attribute>
+    <attribute>
+        <id>MODEL</id>
+        <default></default>
+    </attribute>
+    <attribute>
+        <id>MRW_TYPE</id>
+        <default>IPMI_SENSOR</default>
+    </attribute>
+    <attribute>
+        <id>TYPE</id>
+        <default>NA</default>
+    </attribute>
+</targetInstance>
+<targetInstance>
+    <id>fan_rpm_sensor</id>
+    <type>unit-ipmi-sensor</type>
+    <library_target>true</library_target>
+    <instance_name>fan_rpm_sensor</instance_name>
+    <position>-1</position>
+    <attribute>
+        <id>BUS_TYPE</id>
+        <default>NA</default>
+    </attribute>
+    <attribute>
+        <id>CHIP_UNIT</id>
+        <default>0</default>
+    </attribute>
+    <attribute>
+        <id>CLASS</id>
+        <default>UNIT</default>
+    </attribute>
+    <attribute>
+        <id>IPMI_ENTITY_ID</id>
+        <default>0x03</default>
+    </attribute>
+    <attribute>
+        <id>IPMI_SENSOR_ID</id>
+        <default></default>
+    </attribute>
+    <attribute>
+        <id>IPMI_SENSOR_NAME_SUFFIX</id>
+        <default>RPM</default>
+    </attribute>
+    <attribute>
+        <id>IPMI_SENSOR_OFFSETS</id>
+        <default>0x07</default>
+    </attribute>
+    <attribute>
+        <id>IPMI_SENSOR_READING_TYPE</id>
+        <default>0x6F</default>
+    </attribute>
+    <attribute>
+        <id>IPMI_SENSOR_TYPE</id>
+        <default>0x07</default>
+    </attribute>
+    <attribute>
+        <id>MODEL</id>
+        <default></default>
+    </attribute>
+    <attribute>
+        <id>MRW_TYPE</id>
+        <default>IPMI_SENSOR</default>
+    </attribute>
+    <attribute>
+        <id>TYPE</id>
+        <default>NA</default>
     </attribute>
 </targetInstance>
 <targetInstance>
