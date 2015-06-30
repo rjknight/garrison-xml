@@ -6821,6 +6821,14 @@
         <default>4,0x0003FFFE40000000,0x1000000,0x400000,0x100000</default>
     </attribute>
     <attribute>
+        <id>NPU_MMIO_BAR_ENABLE</id>
+        <default>0x01</default>
+    </attribute>
+    <attribute>
+        <id>NPU_MMIO_BAR_BASE_ADDR</id>
+        <default>8,0x0003FFF000000000,0x2000000,0x1000000,0x200000</default>
+    </attribute>
+    <attribute>
         <id>PM_APSS_CHIP_SELECT</id>
         <default>0x00</default>
     </attribute>
