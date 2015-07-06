@@ -1435,10 +1435,6 @@
     <id>FRU_NAME</id>
     <value>CORE22</value>
     </property>
-    <property>
-    <id>FRU_ID</id>
-    <value>2</value>
-    </property>
 </globalSetting>
 <globalSetting>
     <id>/sys-0/node-0/mesquite-0/birchconn-6/birch-0/dimmconn-2/dimm-0/dimm_func_sensor</id>
@@ -1605,10 +1601,6 @@
     <id>FRU_NAME</id>
     <value>CORE17</value>
     </property>
-    <property>
-    <id>FRU_ID</id>
-    <value>2</value>
-    </property>
 </globalSetting>
 <globalSetting>
     <id>/sys-0/apss-0/Proc0_Power</id>
@@ -1707,10 +1699,6 @@
     <property>
     <id>FRU_NAME</id>
     <value>CORE7</value>
-    </property>
-    <property>
-    <id>FRU_ID</id>
-    <value>1</value>
     </property>
 </globalSetting>
 <globalSetting>
@@ -2030,10 +2018,6 @@
     <id>FRU_NAME</id>
     <value>CORE6</value>
     </property>
-    <property>
-    <id>FRU_ID</id>
-    <value>1</value>
-    </property>
 </globalSetting>
 <globalSetting>
     <id>/sys-0/node-0/mesquite-0/birchconn-6/birch-0/dimmconn-3/dimm-0/spd</id>
@@ -2126,10 +2110,6 @@
     <property>
     <id>FRU_NAME</id>
     <value>CORE12</value>
-    </property>
-    <property>
-    <id>FRU_ID</id>
-    <value>2</value>
     </property>
 </globalSetting>
 <globalSetting>
@@ -2414,10 +2394,6 @@
     <property>
     <id>FRU_NAME</id>
     <value>CORE0</value>
-    </property>
-    <property>
-    <id>FRU_ID</id>
-    <value>1</value>
     </property>
 </globalSetting>
 <globalSetting>
@@ -3042,10 +3018,6 @@
     <id>FRU_NAME</id>
     <value>CORE9</value>
     </property>
-    <property>
-    <id>FRU_ID</id>
-    <value>1</value>
-    </property>
 </globalSetting>
 <globalSetting>
     <id>/sys-0/node-0/mesquite-0/birchconn-6/birch-0/dimmconn-3/dimm-0</id>
@@ -3208,10 +3180,6 @@
     <id>FRU_NAME</id>
     <value>CORE2</value>
     </property>
-    <property>
-    <id>FRU_ID</id>
-    <value>1</value>
-    </property>
 </globalSetting>
 <globalSetting>
     <id>/sys-0/node-0/mesquite-0/proc_socket-0/module-0/proc/pci_configs/E0_x16:E1_x8x8:E2_x8</id>
@@ -3236,10 +3204,6 @@
     <property>
     <id>FRU_NAME</id>
     <value>CORE11</value>
-    </property>
-    <property>
-    <id>FRU_ID</id>
-    <value>1</value>
     </property>
 </globalSetting>
 <globalSetting>
@@ -3298,10 +3262,6 @@
     <property>
     <id>FRU_NAME</id>
     <value>CORE20</value>
-    </property>
-    <property>
-    <id>FRU_ID</id>
-    <value>2</value>
     </property>
 </globalSetting>
 <globalSetting>
@@ -3604,10 +3564,6 @@
     <id>FRU_NAME</id>
     <value>CORE19</value>
     </property>
-    <property>
-    <id>FRU_ID</id>
-    <value>2</value>
-    </property>
 </globalSetting>
 <globalSetting>
     <id>/sys-0/node-0/tod_clk_sensor</id>
@@ -3651,10 +3607,6 @@
     <property>
     <id>FRU_NAME</id>
     <value>CORE14</value>
-    </property>
-    <property>
-    <id>FRU_ID</id>
-    <value>2</value>
     </property>
 </globalSetting>
 <globalSetting>
@@ -3780,10 +3732,6 @@
     <id>FRU_NAME</id>
     <value>CORE4</value>
     </property>
-    <property>
-    <id>FRU_ID</id>
-    <value>1</value>
-    </property>
 </globalSetting>
 <globalSetting>
     <id>/sys-0/node-0/mesquite-0/proc_socket-0/module-0/proc/ex-5</id>
@@ -3857,10 +3805,6 @@
     <property>
     <id>FRU_NAME</id>
     <value>CORE5</value>
-    </property>
-    <property>
-    <id>FRU_ID</id>
-    <value>1</value>
     </property>
 </globalSetting>
 <globalSetting>
@@ -3996,10 +3940,6 @@
     <property>
     <id>FRU_NAME</id>
     <value>CORE15</value>
-    </property>
-    <property>
-    <id>FRU_ID</id>
-    <value>2</value>
     </property>
 </globalSetting>
 <globalSetting>
@@ -4217,10 +4157,6 @@
     <property>
     <id>FRU_NAME</id>
     <value>CORE13</value>
-    </property>
-    <property>
-    <id>FRU_ID</id>
-    <value>2</value>
     </property>
 </globalSetting>
 <globalSetting>
@@ -4467,10 +4403,6 @@
     <id>FRU_NAME</id>
     <value>CORE8</value>
     </property>
-    <property>
-    <id>FRU_ID</id>
-    <value>1</value>
-    </property>
 </globalSetting>
 <globalSetting>
     <id>/sys-0/pci_link_sensor</id>
@@ -4655,10 +4587,6 @@
     <id>FRU_NAME</id>
     <value>CORE3</value>
     </property>
-    <property>
-    <id>FRU_ID</id>
-    <value>1</value>
-    </property>
 </globalSetting>
 <globalSetting>
     <id>/sys-0/node-0/mesquite-0/proc_socket-1/module-1/proc/ex-6</id>
@@ -4676,10 +4604,6 @@
     <property>
     <id>FRU_NAME</id>
     <value>CORE16</value>
-    </property>
-    <property>
-    <id>FRU_ID</id>
-    <value>2</value>
     </property>
 </globalSetting>
 <globalSetting>
@@ -4731,10 +4655,6 @@
     <property>
     <id>FRU_NAME</id>
     <value>CORE23</value>
-    </property>
-    <property>
-    <id>FRU_ID</id>
-    <value>2</value>
     </property>
 </globalSetting>
 <globalSetting>
@@ -4943,10 +4863,6 @@
     <id>FRU_NAME</id>
     <value>CORE21</value>
     </property>
-    <property>
-    <id>FRU_ID</id>
-    <value>2</value>
-    </property>
 </globalSetting>
 <globalSetting>
     <id>/sys-0/node-0/mesquite-0/birchconn-2/birch-0/membuf-0</id>
@@ -5049,10 +4965,6 @@
     <id>FRU_NAME</id>
     <value>CORE10</value>
     </property>
-    <property>
-    <id>FRU_ID</id>
-    <value>1</value>
-    </property>
 </globalSetting>
 <globalSetting>
     <id>/sys-0/os_boot_sensor</id>
@@ -5132,10 +5044,6 @@
     <id>FRU_NAME</id>
     <value>CORE1</value>
     </property>
-    <property>
-    <id>FRU_ID</id>
-    <value>1</value>
-    </property>
 </globalSetting>
 <globalSetting>
     <id>/sys-0/node-0/mesquite-0/birchconn-0/birch-0/membuf-0/mba-0</id>
@@ -5160,10 +5068,6 @@
     <property>
     <id>FRU_NAME</id>
     <value>CORE18</value>
-    </property>
-    <property>
-    <id>FRU_ID</id>
-    <value>2</value>
     </property>
 </globalSetting>
 <globalSetting>
