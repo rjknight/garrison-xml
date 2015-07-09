@@ -6662,6 +6662,10 @@
         <default>8,0x0003FFF000000000,0x2000000,0x1000000,0x200000</default>
     </attribute>
     <attribute>
+        <id>NPU_MMIO_BAR_SIZE</id>
+        <default>0x200000</default>
+    </attribute>
+    <attribute>
         <id>PM_APSS_CHIP_SELECT</id>
         <default>0x00</default>
     </attribute>
